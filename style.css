@@ -1,0 +1,64 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 2em;
+}
+
+button#mode-toggle {
+  padding: 10px 20px;
+  background-color: #ffccf2;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#video-feed {
+  border-radius: 15px;
+  border: 5px solid #ff99cc;
+  box-shadow: 0 0 20px #ff66b2;
+  width: 60%;
+}
+
+.footer {
+  color: #999;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #fff0f5;
+  color: #333;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #1f1f2e;
+  color: #eee;
+}
+
+body.dark-mode #video-feed {
+  border-color: #cc66ff;
+  box-shadow: 0 0 20px #cc66ff;
+}
+
+body.dark-mode button#mode-toggle {
+  background-color: #b366ff;
+  color: white;
+}
+
