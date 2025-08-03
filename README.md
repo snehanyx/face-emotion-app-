@@ -47,7 +47,7 @@ Python’s random module to assign emotions like:
 
 This makes it super lightweight and avoids all AI/ML model dependencies — great for quick demos and UI showcases.
 
-##💡 Possible Upgrades
+## 💡Possible Upgrades
 🔌 Plug in a trained model (.h5 or FER) for real emotion detection
 
 🎨 Add emotion-based emoji overlays
